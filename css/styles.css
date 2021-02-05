@@ -4,7 +4,8 @@ body {
 }
 
 #album-list {
-  width: 50%;
+  width: 46%;
+  padding: 15px;
   display: inline-block;
   float: left;
   text-align: left;
@@ -28,6 +29,11 @@ body {
 .album-list-item:hover {
    background-color: #eee;
    cursor: pointer;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 
