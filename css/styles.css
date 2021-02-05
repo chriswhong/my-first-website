@@ -1,3 +1,43 @@
-h1 {
-  color: orange;
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#album-list {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+#album-art {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.album-list-item {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+}
+
+.album-list-item:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+
+
+/* select all p tags that have class artist-name
+ */
+p {
+  margin: 0;
+}
+
+.album-list-item .album-name {
+  font-size: .7rem
 }
